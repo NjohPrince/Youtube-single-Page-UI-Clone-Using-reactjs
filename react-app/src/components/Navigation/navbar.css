@@ -1,0 +1,5 @@
+.nav-container {
+  background-color: var(--gray-color);
+  position: sticky;
+  top: 0;
+}

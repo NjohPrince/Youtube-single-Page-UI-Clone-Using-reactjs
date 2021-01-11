@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   user-select: none;
   box-sizing: border-box;
+  font-family: 'Roboto' sans-serif;
 }
-
 :root {
-  
+  --gray-color: #202020;
+  --second-gray-color: #212121;
 }
-
 .App {
   height: 150vh;
 }
