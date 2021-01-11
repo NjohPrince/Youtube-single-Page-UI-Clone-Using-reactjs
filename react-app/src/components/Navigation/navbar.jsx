@@ -4,9 +4,9 @@ import './navbar.css'
 const NavBar = () => {
   return (
     <nav className="nav-container">
-      <div className="logo">
-          <img src="assets/images/playbutton.png" alt="logo"/>
-          <span>YouTube</span>
+      <div className="logo-text">
+          <img className="logo" src="assets/images/playbutton.png" alt="logo"/>
+          <span className="text">YouTube</span>
       </div>
     </nav>
   );
