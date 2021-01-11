@@ -100,9 +100,30 @@
   color: #fff;
   margin-left: 10px;
 }
+.nav-container .action-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .nav-container .action-section .video-call-icon,
 .nav-container .action-section .app-icon,
 .nav-container .action-section .notification-icon{
   color: #fff;
   margin-right: 25px;
+  cursor: pointer;
+}
+.nav-container .action-section .image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  height: 33px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--text-color);
+  margin-right: 25px;
+  cursor: pointer;
+}
+.nav-container .action-section .person-icon{
+  color: #fff;
 }

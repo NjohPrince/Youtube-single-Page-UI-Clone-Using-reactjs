@@ -7,6 +7,7 @@ import MicIcon from '@material-ui/icons/Mic';
 import VideoCallIcon from '@material-ui/icons/VideoCall'
 import AppsIcon from '@material-ui/icons/Apps'
 import NotificationsIcon from '@material-ui/icons/Notifications';
+import PersonIcon from '@material-ui/icons/Person';
 
 const NavBar = () => {
   return (
@@ -27,6 +28,9 @@ const NavBar = () => {
         <VideoCallIcon className="video-call-icon" />
         <AppsIcon className="app-icon" />
         <NotificationsIcon className="notification-icon" />
+        <div className="image">
+          <PersonIcon className="person-icon" />
+        </div>
       </div>
     </nav>
   );
