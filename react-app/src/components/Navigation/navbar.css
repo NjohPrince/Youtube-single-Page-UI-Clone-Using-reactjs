@@ -100,3 +100,9 @@
   color: #fff;
   margin-left: 10px;
 }
+.nav-container .action-section .video-call-icon,
+.nav-container .action-section .app-icon,
+.nav-container .action-section .notification-icon{
+  color: #fff;
+  margin-right: 25px;
+}
