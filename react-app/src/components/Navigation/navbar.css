@@ -2,10 +2,10 @@
   background-color: var(--gray-color);
   position: sticky;
   top: 0;
-  padding: 15px;
+  padding: 13px;
   display: flex; 
   align-items: center;
-  border-bottom: #302e2e;
+  justify-content: space-between;
 }
 .nav-container .logo-text{
     display: flex;
@@ -33,4 +33,24 @@
 .nav-container .logo-text .text:hover,
 .nav-container .logo-text .menu-icon{
   cursor: pointer;
+}
+.nav-container .input-section{
+  display: flex;
+}
+.nav-container .input-section input{
+  padding: 8px;
+  background-color: var(--black-color);
+  border: 1px solid var(--border-color);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 375px;
+}
+.nav-container .input-section .btn{
+  padding: 8px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  background-color: var(--border-color);
 }

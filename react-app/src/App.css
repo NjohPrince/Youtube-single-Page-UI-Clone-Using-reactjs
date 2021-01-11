@@ -10,6 +10,9 @@
 :root {
   --gray-color: #202020;
   --second-gray-color: #212121;
+  --border-color: #323232;
+  --black-color: #121212;
+  --text-color: #6f6f6f;
 }
 .App {
   min-height: 150vh;
