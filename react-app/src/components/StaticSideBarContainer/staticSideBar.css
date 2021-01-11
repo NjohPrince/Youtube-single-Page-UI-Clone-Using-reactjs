@@ -15,3 +15,10 @@
   align-items: center;
   flex-direction: column;
 }
+.side-bar-container .link .label{
+  font-size: 0.7rem;
+}
+.side-bar-container .link .sub-link,
+.side-bar-container .link .label{
+  color: var(--main-text-color);
+}
