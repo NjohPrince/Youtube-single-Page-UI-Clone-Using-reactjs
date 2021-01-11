@@ -40,26 +40,42 @@
 .nav-container .input-section input{
   padding: 3px 10px;
   background-color: var(--black-color);
-  border: none;
+  border: 1px solid var(--border-color);
   color: rgb(231, 231, 231);
   font-size: 17px;
   font-weight: 500;
   width: 475px;
-  outline: 1px solid var(--border-color);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 .nav-container .input-section .btn{
   position: relative;
-  padding: 3px 23px;
+  padding: 3px 22px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--border-color);
-  outline: 1px solid var(--border-color);
   background-color: var(--border-color);
   cursor: pointer;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.nav-container .input-section .btn::before{
+  content: "Search";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 3px;
+  top: 0;
+  padding: 10px 8px;
+  background-color: #a8a7a8;
+  transform: translate(0px, 50px);
+  color: #fff;
+  border-radius: 3px;
 }
 .nav-container .input-section .btn:hover .search-icon{
-  color: #afaeb1;
+  color: #a8a7a8;
 }
 .nav-container .input-section .btn .search-icon{
   width: 19px;
@@ -67,8 +83,9 @@
   transition: color .1s ease-in-out;
 }
 .nav-container .input-section input:focus{
-  outline: 1px solid #550bdf;
+  border: 1px solid #550bdf;
+  outline: none;
 }
 .nav-container .input-section .btn:focus{
-  outline: 1px solid var(--border-color);
+  outline: none
 }
