@@ -99,6 +99,7 @@
 .nav-container .input-section .mic-icon{
   color: #fff;
   margin-left: 10px;
+  cursor: pointer;
 }
 .nav-container .action-section{
   display: flex;
