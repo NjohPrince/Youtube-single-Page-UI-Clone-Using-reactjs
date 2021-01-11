@@ -1,1 +1,13 @@
-
+.scroll-section{
+  background-color: var(--gray-color);
+  position: fixed;
+  top: 59px;
+  left: 4.6rem;
+  padding: 13px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
