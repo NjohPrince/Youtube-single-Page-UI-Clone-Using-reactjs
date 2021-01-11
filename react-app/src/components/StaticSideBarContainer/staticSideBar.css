@@ -4,21 +4,27 @@
   left: 0;
   top: 59px;
   background-color: #212121;
-  padding: 0.5rem;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .side-bar-container .link{
-  margin-bottom: 2rem;
+  padding: 1rem 0.4rem;
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 .side-bar-container .link .label{
   font-size: 0.7rem;
 }
+.side-bar-container .link .active{
+  color: #fff !important;
+}
 .side-bar-container .link .sub-link,
 .side-bar-container .link .label{
   color: var(--main-text-color);
+}
+.side-bar-container .link:hover{
+  background: var(--border-color);
 }

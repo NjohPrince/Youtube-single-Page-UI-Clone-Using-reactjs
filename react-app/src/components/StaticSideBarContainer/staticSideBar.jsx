@@ -10,8 +10,8 @@ const StaticSideBar = () => {
   return (
     <div className="side-bar-container">
       <div className="link">
-          <HomeIcon className="sub-link"/>
-          <div className="label">Home</div>
+          <HomeIcon className="sub-link active"/>
+          <div className="label active">Home</div>
       </div>
       <div className="link">
           <WhatshotIcon className="sub-link"/>
