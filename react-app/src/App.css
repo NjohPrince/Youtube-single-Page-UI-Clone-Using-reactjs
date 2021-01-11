@@ -12,7 +12,7 @@
   --second-gray-color: #212121;
   --border-color: #323232;
   --black-color: #121212;
-  --text-color: #6f6f6f;
+  --text-color: rgb(231, 231, 231);
 }
 .App {
   min-height: 150vh;

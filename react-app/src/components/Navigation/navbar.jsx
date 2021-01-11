@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css'
 import MenuIcon from '@material-ui/icons/Menu'
+import SearchIcon from '@material-ui/icons/Search'
 
 const NavBar = () => {
   return (
@@ -12,7 +13,12 @@ const NavBar = () => {
       </div>
       <div className="input-section">
           <input type="text" placeholder="Search"/>
-          <button className="btn"></button>
+          <button className="btn">
+            <SearchIcon className="search-icon"/>
+          </button>
+      </div>
+      <div className="action-section">
+          
       </div>
     </nav>
   );
