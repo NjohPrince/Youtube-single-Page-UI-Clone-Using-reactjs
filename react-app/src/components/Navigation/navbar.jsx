@@ -10,6 +10,10 @@ const NavBar = () => {
         <img className="logo" src="assets/images/playbutton.png" alt="logo"/>
         <span className="text">YouTube</span>
       </div>
+      <div className="input-section">
+          <input type="text" placeholder="Search"/>
+          <button className="btn"></button>
+      </div>
     </nav>
   );
 }
