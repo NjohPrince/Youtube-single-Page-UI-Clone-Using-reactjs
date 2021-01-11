@@ -48,6 +48,7 @@
   outline: 1px solid var(--border-color);
 }
 .nav-container .input-section .btn{
+  position: relative;
   padding: 3px 23px;
   display: flex;
   align-items: center;
@@ -55,10 +56,15 @@
   border: 1px solid var(--border-color);
   outline: 1px solid var(--border-color);
   background-color: var(--border-color);
+  cursor: pointer;
+}
+.nav-container .input-section .btn:hover .search-icon{
+  color: #afaeb1;
 }
 .nav-container .input-section .btn .search-icon{
   width: 19px;
   color: #5a595c;
+  transition: color .1s ease-in-out;
 }
 .nav-container .input-section input:focus{
   outline: 1px solid #550bdf;
