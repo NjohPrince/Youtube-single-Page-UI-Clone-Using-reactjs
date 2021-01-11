@@ -73,6 +73,12 @@
   transform: translate(0px, 50px);
   color: #fff;
   border-radius: 3px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.nav-container .input-section .btn:hover::before{
+  opacity: 1;
 }
 .nav-container .input-section .btn:hover .search-icon{
   color: #a8a7a8;
